@@ -1,4 +1,59 @@
-#toplist {
+body {
+    height: 100%;
+    width: 100%;
+   
+}
+
+#topnav {
     display: block;
-    width: 50px;
+}
+
+img {
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 20%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    display: inline-flex;
+    
+  }
+
+button {
+    margin: 10px;
+}
+
+#buttondiv {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#bottomnav {
+    position: fixed;
+    bottom: 0px;
+}
+
+#searchbar {
+display: block;
+    width: 30%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#mainbody{
+    
+   
 }
